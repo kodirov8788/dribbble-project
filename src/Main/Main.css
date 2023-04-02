@@ -1,0 +1,49 @@
+.h1 h1{
+    font-size: 60px;
+    width: 400px;
+    margin-top: 200px;
+    margin-left: 100px;
+}
+.p p{
+    font-size: 28px;
+    color: gray;
+    width: 300px;
+    margin-left: 100px;
+}
+.btn button:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
+.btn button{
+    width: 170px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: #f00b5b;
+    color: white;
+    border: none;
+    margin-left: 100px;
+    position: absolute;
+}
+.videos ul{
+    display: flex;
+    list-style: none;
+    grid-gap: 300px;
+    border-radius: 10px;
+}
+.videos ul li video{
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    border-radius: 20px;
+    margin-left: 400px;
+    margin-top: -600px;
+}
+.videos ul li video:nth-child(3){
+    width: 100px;
+    position: absolute;
+}
+.image img{
+    margin-left: 560px;
+    margin-top: -630px;
+    position: absolute;
+}
