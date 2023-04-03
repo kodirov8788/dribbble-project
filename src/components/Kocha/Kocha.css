@@ -1,0 +1,46 @@
+.j1 h1{
+    font-size: 50px;
+    width: 600px;
+    margin-top: 300px;
+    margin-left: 100px;
+}
+.p1 p{
+    width: 600px;
+    font-size: 19px;
+    margin-left: 100px;
+}
+.text ul{
+    display: flex;
+    list-style: none;
+    /* grid-gap: 3px; */
+   
+}
+.text ul li h4{
+    
+    width: 350px;
+    margin-top: 100px;
+    margin-left: 50px;
+    
+}
+.image2 img{
+    position: absolute;
+    height: 350px;
+    margin-left: 800px;
+    border-radius: 50%;
+    margin-top: -450px;
+}
+.btn2 button:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
+.btn2 button{
+    width: 250px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: #f00b5b;
+    color: white;
+    border: none;
+    margin-left: 100px;
+    margin-top: 30px;
+    position: absolute;
+}
